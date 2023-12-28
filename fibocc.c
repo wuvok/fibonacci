@@ -1,5 +1,6 @@
 #include <stdio.h> 
 
+int i; 
 int fib(int x){
 if (x==1) return 1; 
 if (x==2) return 1; 
@@ -15,7 +16,7 @@ void iO(i){
 }
  
 int main(){
-    int i; 
+    
     for(i=1;i>0;i++) iO(i);
 
 return 0; } 
