@@ -1,22 +1,22 @@
 #include <stdio.h> 
 
-int fibo(int n){
-if (n==1) return 1; 
-if (n==2) return 1; 
+int fib(int x){
+if (x==1) return 1; 
+if (x==2) return 1; 
 
-return fibo(n-1) + fibo(n-2); 
+return fib(x-1) + fib(x-2); 
 }
-void t(i){
+void iO(i){
     FILE *fp; 
     fp = fopen("fibonaccisequence.txt","a");
-    fprintf(fp," %d \n", fibo(i));
+    fprintf(fp," %d", fib(i));
     fclose(fp);
 
 }
  
 int main(){
     int i; 
-    for(i=1;i>0;i++) t(i);
+    for(i=1;i>0;i++) iO(i);
 
 return 0; } 
 
