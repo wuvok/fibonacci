@@ -19,5 +19,5 @@ int main(){
     
     for(i=1;i>0;i++) iO(i);
 
-return 0; } 
+return fib(i); } 
 
